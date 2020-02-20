@@ -1,24 +1,21 @@
-#include "LeapListener.h"
+#include "MotionListener.h"
 
 int main()
 {
     // Create a sample listener and controller
-    SampleListener listener;
+    MotionListener listener;
     Controller controller;
 
-    listener.mystate = 0;
-    listener.clickcount = 0;
-    listener.pressstate = 0;
-    listener.side = 0;
-    listener.pressedDelay = 0;
-    listener.rclick = 0;
-    listener.sensibility = 8;
-    listener.active = false;
+    controller.enableGesture(Gesture::TYPE_CIRCLE);
+    controller.enableGesture(Gesture::TYPE_SWIPE);
+    controller.enableGesture(Gesture::TYPE_SCREEN_TAP);
+    controller.enableGesture(Gesture::TYPE_KEY_TAP);
+    controller.enableGesture(Gesture::TYPE_INVALID);
 
-    listener.lastFrameID = -1;
-    listener.lastToggle = 0;
-    listener.lastEvent = time(0);
-    listener.light = new Light;
+    controller.config().setFloat("Gesture.KeyTap.MinDownVelocity", 20.0);
+    controller.config().setFloat("Gesture.KeyTap.HistorySeconds", .2);
+    controller.config().setFloat("Gesture.KeyTap.MinDistance", 2.0);
+    controller.config().save();
 
     // Have the sample listener receive events from the controller
     controller.addListener(listener);

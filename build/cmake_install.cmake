@@ -1,4 +1,4 @@
-# Install script for directory: /Users/jbarbie/Travail/Applications/LeapHue
+# Install script for directory: /Users/jbarbie/Travail/Web/Software/leaphue
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,8 +34,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/jbarbie/Travail/Applications/LeapHue/build/hueplusplus/cmake_install.cmake")
-  include("/Users/jbarbie/Travail/Applications/LeapHue/build/leaphue/cmake_install.cmake")
+  include("/Users/jbarbie/Travail/Web/Software/leaphue/build/hueplusplus/cmake_install.cmake")
+  include("/Users/jbarbie/Travail/Web/Software/leaphue/build/leaphue/cmake_install.cmake")
 
 endif()
 
@@ -47,5 +47,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/jbarbie/Travail/Applications/LeapHue/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/jbarbie/Travail/Web/Software/leaphue/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

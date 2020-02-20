@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/ExtendedColorHueStrategy.cpp
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/ExtendedColorHueStrategy.cpp
 include/ExtendedColorHueStrategy.h
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/ExtendedColorHueStrategy.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/ExtendedColorHueStrategy.h
 include/HueConfig.h
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/HueConfig.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/HueConfig.h
 cmath
 -
 iostream
@@ -18,11 +18,11 @@ iostream
 thread
 -
 
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/ExtendedColorTemperatureStrategy.cpp
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/ExtendedColorTemperatureStrategy.cpp
 include/ExtendedColorTemperatureStrategy.h
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/ExtendedColorTemperatureStrategy.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/ExtendedColorTemperatureStrategy.h
 include/HueConfig.h
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/HueConfig.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/HueConfig.h
 cmath
 -
 iostream
@@ -30,9 +30,9 @@ iostream
 thread
 -
 
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/Hue.cpp
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/Hue.cpp
 include/Hue.h
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/Hue.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/Hue.h
 chrono
 -
 iostream
@@ -44,27 +44,27 @@ stdexcept
 thread
 -
 include/ExtendedColorHueStrategy.h
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/ExtendedColorHueStrategy.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/ExtendedColorHueStrategy.h
 include/ExtendedColorTemperatureStrategy.h
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/ExtendedColorTemperatureStrategy.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/ExtendedColorTemperatureStrategy.h
 include/SimpleBrightnessStrategy.h
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/SimpleBrightnessStrategy.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/SimpleBrightnessStrategy.h
 include/SimpleColorHueStrategy.h
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/SimpleColorHueStrategy.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/SimpleColorHueStrategy.h
 include/SimpleColorTemperatureStrategy.h
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/SimpleColorTemperatureStrategy.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/SimpleColorTemperatureStrategy.h
 include/UPnP.h
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/UPnP.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/UPnP.h
 
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/HueCommandAPI.cpp
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/HueCommandAPI.cpp
 include/HueCommandAPI.h
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/HueCommandAPI.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/HueCommandAPI.h
 thread
 -
 
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/HueLight.cpp
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/HueLight.cpp
 include/HueLight.h
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/HueLight.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/HueLight.h
 cmath
 -
 iostream
@@ -72,11 +72,11 @@ iostream
 thread
 -
 include/json/json.h
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/json/json.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/json/json.h
 
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/LinHttpHandler.cpp
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/LinHttpHandler.cpp
 include/LinHttpHandler.h
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/LinHttpHandler.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/LinHttpHandler.h
 chrono
 -
 cstring
@@ -106,9 +106,9 @@ system_error
 unistd.h
 -
 
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/SimpleBrightnessStrategy.cpp
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/SimpleBrightnessStrategy.cpp
 include/SimpleBrightnessStrategy.h
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/SimpleBrightnessStrategy.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/SimpleBrightnessStrategy.h
 cmath
 -
 iostream
@@ -116,11 +116,11 @@ iostream
 thread
 -
 
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/SimpleColorHueStrategy.cpp
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/SimpleColorHueStrategy.cpp
 include/SimpleColorHueStrategy.h
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/SimpleColorHueStrategy.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/SimpleColorHueStrategy.h
 include/HueConfig.h
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/HueConfig.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/HueConfig.h
 cmath
 -
 iostream
@@ -128,11 +128,11 @@ iostream
 thread
 -
 
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/SimpleColorTemperatureStrategy.cpp
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/SimpleColorTemperatureStrategy.cpp
 include/SimpleColorTemperatureStrategy.h
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/SimpleColorTemperatureStrategy.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/SimpleColorTemperatureStrategy.h
 include/HueConfig.h
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/HueConfig.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/HueConfig.h
 cmath
 -
 iostream
@@ -140,15 +140,15 @@ iostream
 thread
 -
 
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/UPnP.cpp
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/UPnP.cpp
 include/UPnP.h
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/UPnP.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/UPnP.h
 algorithm
 -
 iostream
 -
 
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/BaseHttpHandler.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/BaseHttpHandler.h
 iostream
 -
 memory
@@ -158,37 +158,37 @@ string
 vector
 -
 IHttpHandler.h
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/IHttpHandler.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/IHttpHandler.h
 json/json.h
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/json/json.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/json/json.h
 
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/BrightnessStrategy.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/BrightnessStrategy.h
 stdint.h
 -
 
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/ColorHueStrategy.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/ColorHueStrategy.h
 memory
 -
 stdint.h
 -
 
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/ColorTemperatureStrategy.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/ColorTemperatureStrategy.h
 stdint.h
 -
 
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/ExtendedColorHueStrategy.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/ExtendedColorHueStrategy.h
 HueLight.h
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/HueLight.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/HueLight.h
 SimpleColorHueStrategy.h
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/SimpleColorHueStrategy.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/SimpleColorHueStrategy.h
 
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/ExtendedColorTemperatureStrategy.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/ExtendedColorTemperatureStrategy.h
 SimpleColorTemperatureStrategy.h
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/SimpleColorTemperatureStrategy.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/SimpleColorTemperatureStrategy.h
 HueLight.h
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/HueLight.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/HueLight.h
 
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/Hue.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/Hue.h
 map
 -
 memory
@@ -200,21 +200,21 @@ utility
 vector
 -
 BrightnessStrategy.h
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/BrightnessStrategy.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/BrightnessStrategy.h
 ColorHueStrategy.h
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/ColorHueStrategy.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/ColorHueStrategy.h
 ColorTemperatureStrategy.h
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/ColorTemperatureStrategy.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/ColorTemperatureStrategy.h
 HueCommandAPI.h
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/HueCommandAPI.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/HueCommandAPI.h
 HueLight.h
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/HueLight.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/HueLight.h
 IHttpHandler.h
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/IHttpHandler.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/IHttpHandler.h
 json/json.h
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/json/json.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/json/json.h
 
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/HueCommandAPI.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/HueCommandAPI.h
 atomic
 -
 chrono
@@ -222,25 +222,25 @@ chrono
 mutex
 -
 IHttpHandler.h
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/IHttpHandler.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/IHttpHandler.h
 
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/HueConfig.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/HueConfig.h
 
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/HueLight.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/HueLight.h
 memory
 -
 BrightnessStrategy.h
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/BrightnessStrategy.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/BrightnessStrategy.h
 ColorHueStrategy.h
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/ColorHueStrategy.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/ColorHueStrategy.h
 ColorTemperatureStrategy.h
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/ColorTemperatureStrategy.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/ColorTemperatureStrategy.h
 HueCommandAPI.h
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/HueCommandAPI.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/HueCommandAPI.h
 json/json.h
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/json/json.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/json/json.h
 
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/IHttpHandler.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/IHttpHandler.h
 iostream
 -
 memory
@@ -250,37 +250,37 @@ string
 vector
 -
 json/json.h
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/json/json.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/json/json.h
 
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/LinHttpHandler.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/LinHttpHandler.h
 string
 -
 vector
 -
 BaseHttpHandler.h
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/BaseHttpHandler.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/BaseHttpHandler.h
 json/json.h
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/json/json.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/json/json.h
 
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/SimpleBrightnessStrategy.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/SimpleBrightnessStrategy.h
 BrightnessStrategy.h
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/BrightnessStrategy.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/BrightnessStrategy.h
 HueLight.h
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/HueLight.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/HueLight.h
 
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/SimpleColorHueStrategy.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/SimpleColorHueStrategy.h
 ColorHueStrategy.h
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/ColorHueStrategy.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/ColorHueStrategy.h
 HueLight.h
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/HueLight.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/HueLight.h
 
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/SimpleColorTemperatureStrategy.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/SimpleColorTemperatureStrategy.h
 ColorTemperatureStrategy.h
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/ColorTemperatureStrategy.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/ColorTemperatureStrategy.h
 HueLight.h
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/HueLight.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/HueLight.h
 
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/UPnP.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/UPnP.h
 memory
 -
 string
@@ -288,9 +288,9 @@ string
 vector
 -
 IHttpHandler.h
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/IHttpHandler.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/IHttpHandler.h
 
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/json/json.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/json/json.h
 stddef.h
 -
 string
@@ -298,15 +298,15 @@ string
 cpptl/config.h
 -
 version.h
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/json/version.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/json/version.h
 allocator.h
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/json/allocator.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/json/allocator.h
 config.h
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/json/config.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/json/config.h
 forwards.h
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/json/forwards.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/json/forwards.h
 forwards.h
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/json/forwards.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/json/forwards.h
 string
 -
 vector
@@ -320,9 +320,9 @@ cpptl/smallmap.h
 cpptl/forwards.h
 -
 features.h
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/json/features.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/json/features.h
 value.h
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/json/value.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/json/value.h
 deque
 -
 iosfwd
@@ -334,7 +334,7 @@ string
 istream
 -
 value.h
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/json/value.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/json/value.h
 vector
 -
 string
@@ -346,11 +346,11 @@ stdlib.h
 sstream
 -
 config.h
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/json/config.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/json/config.h
 
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/jsoncpp.cpp
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/jsoncpp.cpp
 include/json/json.h
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/include/json/json.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/include/json/json.h
 json/assertions.h
 -
 json/reader.h
@@ -358,7 +358,7 @@ json/reader.h
 json/value.h
 -
 json_tool.h
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/json_tool.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/json_tool.h
 utility
 -
 cstdio
@@ -400,11 +400,11 @@ cstddef
 algorithm
 -
 json_valueiterator.inl
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/json_valueiterator.inl
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/json_valueiterator.inl
 json/writer.h
 -
 json_tool.h
-/Users/jbarbie/Travail/Applications/LeapHue/hueplusplus/json_tool.h
+/Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus/json_tool.h
 iomanip
 -
 memory

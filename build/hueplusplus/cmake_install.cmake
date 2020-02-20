@@ -1,4 +1,4 @@
-# Install script for directory: /Users/jbarbie/Travail/Applications/LeapHue/hueplusplus
+# Install script for directory: /Users/jbarbie/Travail/Web/Software/leaphue/hueplusplus
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

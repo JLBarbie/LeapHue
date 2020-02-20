@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/leaphue.dir/LeapListener.cpp.o"
-  "CMakeFiles/leaphue.dir/Light.cpp.o"
+  "CMakeFiles/leaphue.dir/LightManager.cpp.o"
+  "CMakeFiles/leaphue.dir/MotionListener.cpp.o"
   "CMakeFiles/leaphue.dir/main.cpp.o"
   "leaphue"
   "leaphue.pdb"

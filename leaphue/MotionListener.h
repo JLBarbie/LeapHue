@@ -1,7 +1,7 @@
 #pragma once
 
 #include "Leap.h"
-#include "Light.h"
+#include "LightManager.h"
 
 #ifndef ACTIVETIMEOUT
 #define ACTIVETIMEOUT 300 // wait before auto-deactive (seconds)
@@ -13,9 +13,11 @@
 
 using namespace Leap;
 
-class SampleListener : public Listener
+class MotionListener : public Listener
 {
   public:
+      MotionListener();
+
     virtual void onInit(const Controller&);
     virtual void onConnect(const Controller&);
     virtual void onDisconnect(const Controller&);
@@ -24,18 +26,12 @@ class SampleListener : public Listener
     virtual void onFocusGained(const Controller&);
     virtual void onFocusLost(const Controller&);
 
-    Light *light;
-    int mystate;
-    int clickcount;
-    int pressedDelay; //adjust move object when buttin is pressed
-    int pressstate;
-    int side;
-    int sensibility;  // value for sensibility click incrise value decrise  sensibility
-    int rclick;
-    bool active; // if we're currently active
+private:
+    void onSwipe(GestureList::const_iterator gl);
+    void onCircle(GestureList::const_iterator gl);
+    void onTap(GestureList::const_iterator gl);
 
-    int64_t lastFrameID; // last frame processed
-    int64_t lastToggle; // frame id of the last frame we toggled activity
-    time_t lastEvent; // epoch time in seconds of last event
-
+public:
+    LightManager *mLightManager;
+    Gesture::Type mLastGesture;
 };

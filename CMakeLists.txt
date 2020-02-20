@@ -1,5 +1,5 @@
-cmake_minimum_required(VERSION 2.8.3)
-project(leaphue)
+CMAKE_MINIMUM_REQUIRED(VERSION 2.8.3)
+PROJECT(leaphue)
 
-add_subdirectory(hueplusplus)
-add_subdirectory(leaphue)
+ADD_SUBDIRECTORY(hueplusplus)
+ADD_SUBDIRECTORY(leaphue)
