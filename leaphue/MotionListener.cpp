@@ -3,12 +3,7 @@
 #include <Hue.h>
 #include <HueLight.h>
 
-#define DEGUG
-#ifdef DEBUG
-    #define DEBUG_LOG std::cout
-#else
-    #define DEBUG_LOG nullptr
-#endif
+#include "Utils.h"
 
 
 MotionListener::MotionListener() :
@@ -19,23 +14,23 @@ mLightManager(0)
 
 void MotionListener::onInit(const Controller& controller)
 {
-    std::cout << "Initialized" << std::endl;
+    log(MessageType::INFO, "Initialized");
 }
 
 void MotionListener::onConnect(const Controller& controller)
 {
-    std::cout << "Connected" << std::endl;
+    log(MessageType::INFO, "Connected");
 }
 
 void MotionListener::onDisconnect(const Controller& controller)
 {
     //Note: not dispatched when running in a debugger.
-    std::cout << "Disconnected" << std::endl;
+    log(MessageType::INFO, "Disconnected");
 }
 
 void MotionListener::onExit(const Controller& controller)
 {
-    std::cout << "Exited" << std::endl;
+    log(MessageType::INFO, "Exited");
 }
 
 void MotionListener::onFrame(const Controller& controller)
@@ -68,7 +63,7 @@ void MotionListener::onFrame(const Controller& controller)
         // Finger index = frame.finger(Finger::TYPE_INDEX);
         Hand firstHand = hands[0];
         Vector pos = firstHand.palmPosition();
-        DEBUG_LOG << "x = " << pos.x <<  " y = " << pos.y << " z = " << pos.z << "\r";
+        //std::cout << "x = " << pos.x <<  " y = " << pos.y << " z = " << pos.z << "\r";
         if (pos.y < 60)
             mLightManager->getCurrentLight().Off();
         else if (mLightManager->getCurrentLight().isOn())
@@ -94,20 +89,20 @@ void MotionListener::onSwipe(GestureList::const_iterator gl)
 
     if (swipeGesture.pointable().hand().palmNormal().x < 0
      || swipeGesture.pointable().hand().palmNormal().x > 0)
-       {
-           if(swipeDirection.x < 0 && swipeGesture.position().x < -40)
-           {
-               std::cout << "Left direction" << std::endl;
-               mLightManager->previousLight();
-           }
-           if(swipeDirection.x > 0 && swipeGesture.position().x > 40)
-           {
-               std::cout << "Right direction" << std::endl;
-               mLightManager->nextLight();
-           }
-           mLightManager->getCurrentLight()->getName();
-           mLastGesture = Gesture::TYPE_SWIPE;
-       }
+    {
+        if(swipeDirection.x < 0 && swipeGesture.position().x < -40)
+        {
+            std::cout << "Left direction" << std::endl;
+            mLightManager->previousLight();
+        }
+        if(swipeDirection.x > 0 && swipeGesture.position().x > 40)
+        {
+            std::cout << "Right direction" << std::endl;
+            mLightManager->nextLight();
+        }
+        mLightManager->getCurrentLight().getName();
+        mLastGesture = Gesture::TYPE_SWIPE;
+    }
 }
 
 void MotionListener::onCircle(GestureList::const_iterator gl)

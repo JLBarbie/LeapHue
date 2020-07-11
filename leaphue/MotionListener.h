@@ -32,6 +32,6 @@ private:
     void onTap(GestureList::const_iterator gl);
 
 public:
-    LightManager *mLightManager;
-    Gesture::Type mLastGesture;
+    LightManager *mLightManager = 0;
+    Gesture::Type mLastGesture = Gesture::TYPE_INVALID;
 };
